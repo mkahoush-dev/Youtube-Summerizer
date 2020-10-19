@@ -12,7 +12,7 @@ def summary (text):
     for word in doc:
         if word.text.lower() not in stopwords:
             if word.text.lower() not in punctuation:
-                if word.text.lower() not in word_frequencies.keys():
+                if word.text not in word_frequencies.keys():
                     word_frequencies[word.text] = 1
                 else:
                     word_frequencies[word.text] += 1

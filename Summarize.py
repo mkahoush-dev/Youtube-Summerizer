@@ -18,7 +18,7 @@ def transcribe (youtube_url):
     NLP.summary(final_text)
 
 
-transcribe('https://www.youtube.com/watch?v=M7FIvfx5J10')
+transcribe('https://www.youtube.com/watch?v=RmTxvkhzFPo')
 
 #
 # url = 'https://gdata.youtube.com/feeds/api/videos/'+ID+'/captions'
