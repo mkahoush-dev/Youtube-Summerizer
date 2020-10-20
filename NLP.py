@@ -33,5 +33,5 @@ def summary (text):
     summary = nlargest(select_length, sentence_scores, key = sentence_scores.get)
     final_summary = [word.text for word in summary]
     summary = ' '.join(final_summary)
-    print (summary)
+    return summary
 
