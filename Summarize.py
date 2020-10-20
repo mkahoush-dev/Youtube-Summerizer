@@ -15,10 +15,9 @@ def transcribe (youtube_url):
     for line in data:
         final_text += line['text']
 
-    NLP.summary(final_text)
+    return NLP.summary(final_text)
 
 
-transcribe('https://www.youtube.com/watch?v=RmTxvkhzFPo')
 
 #
 # url = 'https://gdata.youtube.com/feeds/api/videos/'+ID+'/captions'
