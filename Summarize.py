@@ -2,7 +2,7 @@ import NLP
 import re
 from youtube_transcript_api import YouTubeTranscriptApi
 def transcribe (youtube_url):
-    api_key = 'AIzaSyCyxIlwMmP2PoqyWbnpTuLHn0pH0toKDjA'
+    api_key = ''
     regex = re.compile(r'(https?://)?(www\.)?(youtube|youtu|youtube-nocookie)\.(com|be)/(watch\?v=|embed/|v/|.+\?v=)?(?P<id>[A-Za-z0-9\-=_]{11})')
 
     match = regex.match(youtube_url)
